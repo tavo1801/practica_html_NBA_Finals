@@ -1,0 +1,235 @@
+body {
+    background-image: url(/imagenes/Boston/boston\ celtics\ logo.jpg);
+}
+
+.barra {
+
+    background-color: green;
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+    }
+    
+    
+    a {
+    color: azure;
+    }
+    
+    .barra a {
+    
+     float: left;
+     columns: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     border-radius: 10px 0px 39px 22px;
+     font-size: 17px;
+     font-family: Calibri;
+    
+    }
+    
+    
+    .link {
+        color: navy;
+    }
+    
+    
+    
+    .link:hover{
+        color: red;
+    }
+    
+    /* color  del link en estado inactivo */
+    .barra a:hover {
+        background-color: white;
+        color: black;
+    }
+
+.container {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
+}
+
+.contenedor{ 
+    display: flex; 
+    flex-wrap:wrap; 
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px ;
+    
+  } 
+  .tarjeta-1{
+    margin: 5px 5px 5px 5px;
+    flex: auto;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border: radius 50px;
+    font-family: calibri;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+  }
+  
+  .tarjeta-2{
+    margin: 5px 5px 5px 5px;
+    flex: auto;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: calibri;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+  }
+  
+  .tarjeta-3{
+   margin: 5px 5px 5px 5px;
+    flex: auto;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: calibri;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+  }
+  
+  .fotito {
+   
+    max-width: 500px;
+    min-width: 320px ;
+    margin: auto;
+   
+   }
+   
+   #foto {
+       width: 100%;
+       border-radius: 5px;
+       box-shadow: 0px 3px 5px rgba(15, 15, 15, 5);
+   }
+  
+  #ima {
+  
+  width: 200px;
+  height: 100px;
+  border-radius: 5px 5px 5px 5px;
+  align-content: center;
+  }
+  
+  .titulo{
+  
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);  
+    text-shadow: 
+    #199700 0 0 12px,
+    #00a832 0 0 25px,
+    #199700 0 0 35px,
+    #199700 0 0 45px;  
+    display: flex ;
+    flex-wrap: wrap;
+    padding: 5px 5px 5px 5px;
+    margin: 40px;
+    flex: 1;
+    width: 70%;
+    justify-content: center ;
+    text-justify: center;
+    padding: 5%;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    border-radius:15px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    
+    }
+
+
+  .contenido {
+    display: flex ;
+    flex-wrap: wrap;
+    padding: 10px 10px 10px 10px;
+    backdrop-filter: blur;
+    }
+    
+    #ima1 {
+    
+        width: 150px;
+        height: 150px;
+        border-radius: 5px 5px 5px 5px;
+        align-content: center;
+        }
+    
+    
+    .analisis {
+        
+    margin: 2px;
+    flex: 1;
+    width: 40%;
+    justify-content: center ;
+    text-justify: center;
+    padding: 5%;
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    border-radius:15px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    }    
+    
+
+    
+    
+    p {
+    
+        text-align: justify;
+        color: rgb(255, 255, 255);  
+        text-shadow: 
+        #199700 0 0 12px,
+        #00a832 0 0 25px,
+        #199700 0 0 35px,
+        #199700 0 0 45px; 
+       
+       
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    h2{
+        background-color: #f2f2f2;
+       
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    h3 {
+            border-radius: 10px 10px 10px 10px;
+        color: aliceblue;  
+        text-shadow: 
+        #FFFFFF 0 0 12px,
+        #1100a8 0 0 25px,
+        #1100a8 0 0 35px,
+        #1100a8 0 0 45px;  
+    
+        padding: 5px;
+    }
+    
+    .fotito {
+     width: 70%;
+     max-width: 1000px;
+     min-width: 320px ;
+     margin: auto;
+    
+    }
+    
+    #foto {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 3px 5px rgba(15, 15, 15, 5);
+    }
